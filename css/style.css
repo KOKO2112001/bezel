@@ -1,0 +1,311 @@
+:root{
+    --main_color:#00c3da;
+}
+body{
+  overflow-x: hidden ;
+  background-color: #f1f1f1f1;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.carousel-inner .x{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5) , rgba(0,0,0,0.5)) , url(../images/bg-image-28.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+.carousel-inner .Y{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5) , rgba(0,0,0,0.5)) , url(../images/bg-image-29.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+.k i{
+    color: rgb(0, 0, 0);
+    transition: all .15s ease-in-out;
+}
+.k i:hover{
+    color: gray;
+}
+.caption{
+    margin-top: 15rem;
+}
+.bbb{
+    width: 5rem;
+    color: white;
+    background-color: var(--main_color);
+    outline-color: #00c3da !important;
+}
+.bbb:hover{
+    margin-top: 5x;
+    color: white;
+    background-color: var(--main_color);
+}
+.bbbb{
+    width: 9rem;
+    color: white;
+    background-color: var(--main_color);
+    outline-color: #00c3da !important;
+}
+.bbbb:hover{
+    margin-top: 5x;
+    color: white;
+    background-color: var(--main_color);
+}
+.bb{
+    width: 7rem;
+    color: white;
+    background-color: var(--main_color);
+    outline-color: #00c3da !important;
+}
+.bb:hover{
+    margin-top: 5x;
+    color: white;
+    background-color: var(--main_color);
+}
+.c{
+    width: 7rem;
+}
+.about span::after{
+    content: "|";
+    color: gray;
+    animation: words 5s 1s infinite;
+}
+.ab{
+    width: 8rem;
+    height: 3rem;
+}
+.ab:hover{
+    color: white;
+    background-color: black;
+}
+.team h2::after{
+    content:"C";
+    color: gray;
+    position: absolute;
+    top: -20;
+    left: 630;
+    opacity: 0.2;
+    font-size: 4rem;
+}
+.works h2::after{
+    content:"C";
+    color: gray;
+    position: absolute;
+    top: -20;
+    left: 620;
+    opacity: 0.2;
+    font-size: 4rem;
+}
+.layer{
+    color: white;
+    position: absolute;
+    top:335;
+    left: 0;
+    height: 10px;
+    transition: all 0.1s ease-in-out;
+}
+.layer h6{
+    padding-top: 16rem;
+}
+.t3{
+    cursor: pointer;
+}
+.t3:hover .layer{
+    background-color:var(--main_color);
+    top:0;
+    left: 0;
+    opacity: 0.9;
+}
+.services{
+    background-color: #1f1f1f;
+    opacity: 0.7;
+}
+.services h2::after{
+  content:"W";
+    color: rgba(255, 255, 255, 0.359);
+    position: absolute;
+    top: -35;
+    left: 40;
+    opacity: 0.2;
+    font-size: 4rem;
+}
+.cons{
+    font-size: small;
+    text-align: center;
+    height: 1.5rem;
+    width: 5rem;
+    background-color: var(--main_color);
+    color: white;
+}
+.dif{
+    color: var(--main_color);
+}
+.diff{
+    transform: scaleY(1.1);
+}
+#ss [ data-bs-target]{
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  background-color: var(--main_color);
+}
+.pricing span{
+  background-color: #c3c3c3;
+}
+.pricing span:hover{
+  background-color: var(--main_color) !important;
+}
+.contact h2::after{
+  content:"G";
+  color: gray;
+  position: absolute;
+  top: -20;
+  left: -9;
+  opacity: 0.2;
+  font-size: 4rem;
+}
+.home .carousel-control-next i:hover ,.home .carousel-control-prev i:hover{
+  color:#ffffff !important;
+}
+.carousel-control-prev i{
+  position: absolute;
+  right: 180;
+  bottom: 360;
+}
+.form-group textarea{
+  height: 15% !important;
+}
+.form-control{
+  height: 6% !important;
+  width: 50% !important;
+  margin-bottom: 3% !important;
+}
+.v::before{
+  content: "";
+  right: 160;
+  top: 310;
+  position: absolute;
+  width: 4rem;
+  height: 3rem;
+  background-color:#999999;
+}
+.home .v .layer::before{
+  position: absolute;
+  content: "";
+  bottom:665;
+  left: -13;
+  width: 0rem;
+  height: 3rem;
+  background-color:#ffffff;
+  transition: all 0.1s ease-in-out;
+}
+.carousel-control-prev:hover  .v .layer::before{
+  opacity: 0.1;
+  width: 4rem;
+}
+.carousel-control-next i{
+  position: absolute;
+  right: 1430;
+  bottom: 310;
+}
+.vv::before{
+  content: "";
+  right: 1412;
+  bottom: 300;
+  position: absolute;
+  width: 4rem;
+  height: 3rem;
+  background-color:#999999;
+}
+.home .vv .layer::before{
+  position: absolute;
+  content: "";
+  bottom:668;
+  left: -15;
+  width: 0rem;
+  height: 3rem;
+  opacity: 1;
+  background-color:#ffffff;
+  transition: all 0.1s ease-in-out;
+}
+.carousel-control-next:hover  .vv .layer::before{
+  opacity: 0.1;
+  width: 4rem;
+}
+@keyframes words {  
+    0% {
+        content: "|";
+        color: var(--main_color);
+      }
+      2% {
+        content: "W|";
+      }
+      4% {
+        content: "We|";
+      }
+      6% {
+        content: "Web|";
+      }
+      8% {
+        content: "Webs|";
+      }
+      10% {
+        content: "Websi|";
+      }
+      12% {
+        content: "Websit|";
+      }
+      14% {
+        content: "Website| ";
+      }
+      16% {
+        content: "Websites|";
+      }
+      18% {
+        color: var(--main_color);
+        content: "|";
+      }
+      20% {
+        content: "S|";
+      }
+      22% {
+        content: "So|";
+      }
+      24% {
+        content: "Sof|";
+      }
+      26% {
+        content: "Soft|";
+      }
+      28% {
+        content: "Softw|";
+      }
+      30% {
+        content: "Softwa|";
+      }
+      32% {
+        content: "Softwar|";
+      }
+      34% {
+        content: "Software|";
+      }
+      36% {
+        content: "Softwares|";
+      }
+      38% {
+        content: "|";
+        color: var(--main_color);
+      }
+      40% {
+          content: "a|";
+      }
+      42% {
+          content: "ap|";
+      }
+      44% {
+          content: "app|";
+      }
+      46% {
+          content: "apps|";
+      }
+      
+}
